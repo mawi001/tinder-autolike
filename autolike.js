@@ -27,7 +27,7 @@ function checkOkCupid() {
 }
 function trickOkCupid() {
 	// Press the like button
-	document.getElementsByClassName('cardactions-action--like')[0].click();
+	document.getElementsByClassName('likes-pill-button-inner')[0].click();
 }
 
 // There is a lot more fun that can be achieved
