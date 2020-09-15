@@ -10,6 +10,8 @@ function hasBlacklistKeywords(bio) {
 			'trans',
 			'shemale',
 			'chubby',
+			'trans',
+			'disney boy',			
 			//' lb ',
 		];
 
@@ -51,7 +53,7 @@ function trickTinder() {
 
 	var infoClassName = 'recCard__info';
 	var dislike = document.getElementsByClassName("button")[0];
-	var like = document.getElementsByClassName("button")[2];
+	var like = document.getElementsByClassName("button")[3];
 
 	// Open profile bio
 	var info = document.getElementsByClassName(infoClassName)[0];
